@@ -27,13 +27,6 @@ h4 {
     font-style: italic;
     font-variant: small-caps;
 }
-#currentDate {
-    <div id="currentDate" class=" "></div>
-    <script>
-        document.getElementById("currentDate").innerHTML = new Date().toDateString();
-    </script>
-}
-
 #skillsList {
     columns:3;
 }
