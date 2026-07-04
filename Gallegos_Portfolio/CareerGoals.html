@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS Files/styles.css">
+    <title>Deciderio Gallegos Portfolio - Career Goals</title>
+</head>
+<body>
+    <header>
+        <h1>Deciderio Gallegos Portfolio - Forms & Multimedia</h1>
+        <nav>
+            <nav>
+                <h4>
+                <a href="https://www.linkedin.com/in/deciderio-gallegos/" target="_blank">LinkedIn</a> |
+                <a href="Resume.html">Resume</a> |
+                <a href="CoverLetter.html">Cover Letter</a> |
+                <a href="CareerGoals.html">Career Goals</a> |
+                <a href="tables.html">Tables</a> |
+                </h4>
+                </nav>
+        </nav>
+        <main>
+            <p><i>The career goals forms and multimedia is here to test html and css skills. 
+                Gather information and used locally sourced resources. <br>
+                <strong>Ensure all links prior to submission.</strong>
+            </i></p>
+        </main>
+    </header>
+    <hr>
+    <section>
+        <h3 class="sectionHeader">Forms</h3>
+        <form action="https://wp.zybooks.com/form-viewer.php" method="post">
+            <div class="form-container">
+                <!-- left side -->
+                <div class="form-column">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" name="firstName" id="firstName">
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" name="lastName" id="lastName">                    
+                    <label for="myEmail">Email Address:</label>
+                    <input type="email" name="myEmail" id="myEmail">
+                    <label for="myPW">Password:</label>
+                    <input type="password" name="myPW" id="myPW">
+                    <label for="birthDate">Date of Birth:</label>
+                    <input type="date" name="birthDate" id="birthDate">
+                    <fieldset>
+                        <legend>Best Contact Time</legend>
+                        <input type="radio" name="contactTime" id="contactTimeAny" value="any" checked><label for="contactTimeAny">Anytime</label><br>
+                        <input type="radio" name="contactTime" id="contactTimeAM" value="am" ><label for="contactTimeAM">AM</label><br>
+                        <input type="radio" name="contactTime" id="contactTimePM" value="pm" ><label for="contactTimePM">PM</label><br>
+                        <input type="radio" name="contactTime" id="contactTimeSpecific" value="specific" checked><label for="contactTimeSpecific">Specific Time</label><br>
+                        <input type="time" name="myContactTime" id="myContactTime">
+                    </fieldset>
+                </div>
+                <!-- right side -->
+                <div class="form-column">
+                    <label for="companyName">Company Name:</label>
+                    <input type="text" name="companyName" id="companyName">
+                    <label for="phoneNumber">Phone Number</label>
+                    <input type="tel" name="phoneNumber" id="phoneNumber">
+                    <fieldset>
+                        <legend>Contact Type</legend>
+                        <input type="checkbox" name="phone" id="phone" value="1"><label for="phone">Phone</label>
+                        <input type="checkbox" name="email" id="email" value="2"><label for="email">Email</label>
+                        <input type="checkbox" name="text" id="text" value="3"><label for="text">Text</label>
+                    </fieldset>
+                    <label for="mySelect">Select List</label>
+                    <select name="mySelect" id="mySelect">
+                        <option value="1">Option 1</option>
+                        <option value="2">Option 2</option>
+                        <option value="3">Option 3</option>
+                        <option value="4">Option 4</option>
+                        <option value="5">Option 5</option>
+                        <option value="6">Option 6</option>
+                        <option value="7">Option 7</option>
+                    </select>
+                    <label for="myTA">Text Area</label>
+                    <textarea name="myhTA" id="myTA" cols="20" rows="4"></textarea>
+                    <label for="myFile">File Upload</label>
+                    <input type="file" name="myFile" id="myFile">
+                </div>
+                <div class="form-button">
+                    <input type="reset" name="resetBtn" id="resetBtn" value="RESET FORM">
+                    <input type="submit" name="submitBtn" id="submitBtn" value="SUBMIT FORM">
+                </div>
+            </div>
+        </form>
+    </section>
+    <hr>
+    <section>
+        <h3 class="sectionHeader">Multimedia</h3>
+        <div class="form-container">
+                <div class="form-column">
+                    <img src="Multimedia/Yosemite Post.JPG" alt="" style="width: 100%;">
+                </div>
+                <div class="form-column">
+                    <video controls="controls"  style="width: 135%;">
+                        <source src="Multimedia/Water Creek.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="form-column">
+                    <audio src="Multimedia/Battleground - Ethan Meixsell.mp3" controls>
+                        Time to update your browser/device. Audio element in use.
+                    </audio>
+                </div>
+        </div>
+    </section>
+    <footer style="margin-bottom: 200px;">
+            <div class="form-container">
+                <!-- left side -->
+                <div>
+                    <h4>
+                    Deciderio Gallegos<br>
+                    Las Vegas, NV 89156<br>
+                    </h4>
+                </div>
+                <!-- right side -->
+                <div>
+                    <nav>
+                        <h4>
+                            <a href="https://www.linkedin.com/in/deciderio-gallegos/" target="_blank">LinkedIn</a> |
+                            <a href="Resume.html">Resume</a> |
+                            <a href="CoverLetter.html">Cover Letter</a> | 
+                            <a href="tables.html">Tables</a> |
+                        </h4>
+                    </nav>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>
