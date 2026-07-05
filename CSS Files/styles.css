@@ -27,6 +27,7 @@ h4 {
     color: var(--color5);
     font-style: italic;
     font-variant: small-caps;
+    text-align: center;
 }
 #skillsList {
     columns:3;
@@ -36,6 +37,7 @@ h4 {
     color: var(--color4);
     font-style:italic;
     font-variant: small-caps;
+    text-align: center;
 }
 
 .employerName {
@@ -81,14 +83,6 @@ td {
     vertical-align: top;
     padding: 7px;
     color: var(--color5);
-}
-/*footer styling*/
-footer {
-    color: var(--color5);
-    font-weight: bold;
-    font-variant: small-caps;
-    text-align: center;
-    padding: 20px;
 }
 
 /* Cover Letter CSS */
@@ -201,7 +195,6 @@ input[type="submit"] {
 nav li a {
     display: block;
     color: whitesmoke;
-    text-align: center;
     padding: 14px 20px;
 }
 
